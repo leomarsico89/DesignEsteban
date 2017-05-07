@@ -81,9 +81,17 @@ h3{
 	justify-content: space-between
 }
 
+.flex_colum{
+	display: -webkit-box;
+  	display: -moz-box;
+  	display: -ms-flexbox;
+  	display: -webkit-flex;
+  	display: flex;
+  	flex-direction: column;
 
+}
 
-.flex-row .flex50{
+.flex-row .flex50 ,.flex_colum .flex50{
 	flex: 1 1 100%;
 	max-width: 50%;
 	max-height: 100%;
@@ -95,7 +103,7 @@ h3{
 	max-height: 100%;
 }
 
-.flex-row.align_center{ 
+.flex-row.align_center,.flex_colum.align_center{ 
     align-items: center;
     align-content: center;
 
@@ -193,8 +201,13 @@ header .nav input#hamburguer:checked ~ .nav_header{
 	background-color: #fff;
 	z-index: 101;
 }
-
-
+.title_header{
+	max-width: 70%;
+    margin: auto;
+}
+.title_header h1{
+	color: #fff;
+}
 
 .toggle {
 	width: 30px;

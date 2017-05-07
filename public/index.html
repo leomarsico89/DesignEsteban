@@ -25,52 +25,57 @@
 
 <body>
     <span class="ir-arriba fa fa-chevron-up"></span>
-    <header class="header_menu">
-        <nav class="nav_header">
-            <div class="brand"> <img src="img/logo.png"> </div>
+    <header class="header">
+		<div class="nav">
+			<input type="checkbox" id="hamburguer" class="none open_menu">
+	        <nav class="nav_header" >
+	            <div class="brand"> <img src="img/logo.png"> </div>
 
-            <div class="toggle">
-                <a href="#">
-                    <svg class="icon">
-		              <line class="top" x1="0" y1="2" x2="30" y2="2" />
-		              <line class="mid" x1="10" y1="12" x2="30" y2="12" />
-		              <line class="bot" x1="0" y1="22" x2="30" y2="22" />
-		            </svg>
-                </a>
-            </div>
-        </nav>
+	            <div class="toggle">
+	            	
+	                <label for="hamburguer">
+	                	<svg class="icon">
+			              <line class="top" x1="0" y1="2" x2="30" y2="2" />
+			              <line class="mid" x1="10" y1="12" x2="30" y2="12" />
+			              <line class="bot" x1="0" y1="22" x2="30" y2="22" />
+			            </svg>
+	                </label>
+	       				
+	            </div>
+	        </nav>
+	        <nav class="nav_menu">
+				<ul class="menu_desplegable">
+					<li><a href="#arquitectura"><span>.</span>Arquitectura asombrosa</a></li>
+					<li><a href="#resolucionesIntegrales"><span>.</span>Arquitectura para la habitalidad</a></li>
+					<li><a href="#pilares"><span>.</span>Los pilares de nuestra permanencia</a></li>
+					<li><a href="#asistentes"><span>.</span>Asesores téncicos comerciales</a></li>
+					<li><a href="#contactenos"><span>.</span>Contactenos</a></li>
+				</ul>
+			</nav>
 
-		<nav class="nav_menu">
-			<ul class="menu_desplegable">
-				<li><a href=""><span>.</span>Arquitectura asombrosa</a></li>
-				<li><a href=""><span>.</span>Arquitectura para la habitalidad</a></li>
-				<li><a href=""><span>.</span>Los pilares de nuestra permanencia</a></li>
-				<li><a href=""><span>.</span>Asesores téncicos comerciales</a></li>
-				<li><a href=""><span>.</span>Contactenos</a></li>
-			</ul>
-		</nav>
+			
+		</div>
+		<div class="cabecera_home">
+			<div class="contenido">
+            	<h1>Lo importante <br><span class="destacado">es lo que hay detras de la ventana<strong class="redColor">.</strong></span></h1>
+	        </div>
+	        <div onclick="scrollWin()" class="prallax-scroll"> Scroll
+	            <svg class="prallax-scroll-svg">
+                  <line class="ps-1" x1="50%" y1="0" x2="50%" y2="60px"></line>
+                  <line class="ps-2" x1="50%" y1="0" x2="50%" y2="60px"></line>
+	            </svg>
+	        </div>
+		</div>
 
 
 
     </header>
 
-    <div id="content1">
-        <div class="contenido">
-            <h1>Lo importante <br><span class="destacado">es lo que hay detras de la ventana<strong class="redColor">.</strong></span></h1>
-        </div>
-        <div onclick="scrollWin()" class="prallax-scroll"> Scroll
-            <svg class="prallax-scroll-svg">
-                  <line class="ps-1" x1="50%" y1="0" x2="50%" y2="60px"></line>
-                  <line class="ps-2" x1="50%" y1="0" x2="50%" y2="60px"></line>
-                </svg>
-        </div>
-    </div>
-
     <!--fin-->
     <!-- Cuerpo de la Web -->
 	<div class="wrap">
 		
-	    <div id="arquitectura">
+	    <div id="arquitectura" class="section">
 	        <div class="side-left">
 	            <h3><strong class="redColor">Arq</strong>uitectura asombrosa</h3><br>
 	            <p class="bajada">Brindamos soluciones a todo tipo de proyecto.</p>
@@ -106,7 +111,7 @@
 	        </div>
 	    </div>
 
-	    <div id="bannerRealidad">
+	    <div id="bannerRealidad" class="spacer">
 	        <div class="contenedorBanner">
 	            <div class="borders">
 	                <h2 class="white lineHeight">Hacemos realidad <br>lo importante</h2>
@@ -115,7 +120,7 @@
 	        </div>
 	    </div>
 
-	    <div id="resolucionesIntegrales">
+	    <div id="resolucionesIntegrales" class="section">
 	        <div class="contenidoIntegrales">
 	            <h3 class="lineHeight"><strong class="redColor">Arq</strong>uitectura <br> para la habitalidad</h3>
 	            <p class="bajada">Resoluciones integrales para cada situación.</p>
@@ -140,61 +145,63 @@
 	        </div>
 	    </div>
 
-	    <div id="pilares">
+		<div class="section" id="pilares">
+			<div class="pilares">
 
-	        <div id="contenedorPilares">
-	            <div class="borders width1000">
-	                <h2 class="lineHeight">Los pilares de nuestra <br>permanencia</h2>
+		        <div id="contenedorPilares">
+		            <div class="borders width1000">
+		                <h2 class="lineHeight">Los pilares de nuestra <br>permanencia</h2>
 
-	            </div>
-	        </div>
+		            </div>
+		        </div>
 
-	    </div>
+		    </div>
 
-	    <div id="pilaresContent">
-	        <div id="pilaresContentInner">
-	            <p class=" bajada">Somos referentes desde 1960.</p>
-	        </div>
-	        <div class="slides-pilares">
-	            <ul id="accordion1">
-	                <li id="arquitecturaCompleja">
-	                    <strong class="tituloPilar">Arquitectura compleja</strong><br/>
-	                    <div class="contenidoPilar">Cada proyecto es ejecutado basándonos en nuestra amplia capacidad de gestión. Realizamos un gran aporte de conocimiento y experiencia, que además de la colaboración en conjunto con arquitectos, nos permite resolver las problemáticas más complejas.</div>
+		    <div class="pilaresContent">
+		        <div id="pilaresContentInner">
+		            <p class=" bajada">Somos referentes desde 1960.</p>
+		        </div>
+		        <div class="slides-pilares">
+		            <ul id="accordion1">
+		                <li id="arquitecturaCompleja">
+		                    <strong class="tituloPilar">Arquitectura compleja</strong><br/>
+		                    <div class="contenidoPilar">Cada proyecto es ejecutado basándonos en nuestra amplia capacidad de gestión. Realizamos un gran aporte de conocimiento y experiencia, que además de la colaboración en conjunto con arquitectos, nos permite resolver las problemáticas más complejas.</div>
 
-	                </li>
-	                <li>
-	                    <strong class="tituloPilar">Diseño e Innovación</strong><br/>
-	                    <div class="contenidoPilar">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In iaculis volutpat quam, non suscipit arcu accumsan at. Aliquam pellentesque.</div>
-	                </li>
-	                <li>
-	                    <strong class="tituloPilar">Rigor Técnico</strong><br/>
-	                    <div class="contenidoPilar">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In iaculis volutpat quam, non suscipit arcu accumsan at. Aliquam pellentesque.</div>
-	                </li>
-	                <li>
-	                    <strong class="tituloPilar">Montaje</strong><br/>
-	                    <div class="contenidoPilar">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In iaculis volutpat quam, non suscipit arcu accumsan at. Aliquam pellentesque.</div>
-	                </li>
-	                <li>
-	                    <strong class="tituloPilar">Ahorro energético</strong><br/>
-	                    <div class="contenidoPilar">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In iaculis volutpat quam, non suscipit arcu accumsan at. Aliquam pellentesque.</div>
-	                </li>
-	                <li>
-	                    <strong class="tituloPilar">Trayectoria</strong><br/>
-	                    <div class="contenidoPilar">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In iaculis volutpat quam, non suscipit arcu accumsan at. Aliquam pellentesque.</div>
-	                </li>
-	            </ul>
-	        </div>
-	    </div>
+		                </li>
+		                <li>
+		                    <strong class="tituloPilar">Diseño e Innovación</strong><br/>
+		                    <div class="contenidoPilar">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In iaculis volutpat quam, non suscipit arcu accumsan at. Aliquam pellentesque.</div>
+		                </li>
+		                <li>
+		                    <strong class="tituloPilar">Rigor Técnico</strong><br/>
+		                    <div class="contenidoPilar">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In iaculis volutpat quam, non suscipit arcu accumsan at. Aliquam pellentesque.</div>
+		                </li>
+		                <li>
+		                    <strong class="tituloPilar">Montaje</strong><br/>
+		                    <div class="contenidoPilar">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In iaculis volutpat quam, non suscipit arcu accumsan at. Aliquam pellentesque.</div>
+		                </li>
+		                <li>
+		                    <strong class="tituloPilar">Ahorro energético</strong><br/>
+		                    <div class="contenidoPilar">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In iaculis volutpat quam, non suscipit arcu accumsan at. Aliquam pellentesque.</div>
+		                </li>
+		                <li>
+		                    <strong class="tituloPilar">Trayectoria</strong><br/>
+		                    <div class="contenidoPilar">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In iaculis volutpat quam, non suscipit arcu accumsan at. Aliquam pellentesque.</div>
+		                </li>
+		            </ul>
+		        </div>
+		    </div>
 
-	    <div id="pilaresBottom">
-	        <div class="contenedorPilares">
-	            <div class="bordersRight sinMarginTop">
+		    <div class="pilaresBottom">
+		        <div class="contenedorPilares">
+		            <div class="bordersRight sinMarginTop">
 
-	            </div>
-	        </div>
-	    </div>
-
-	    <div id="asistentes">
+		            </div>
+		        </div>
+		    </div>
+		</div>
+	    
+	    <div id="asistentes" class="section">
 	        <div id="innerAsistente">
 	            <h3 class="lineHeight"><strong class="redColor">Ase</strong>sores <br>téncicos comerciales</h3>
 	            <p class="bajada">Todo comienza con una charla, ¿Un café?</p>
@@ -204,23 +211,22 @@
 
 
 	        </div>
-
-
-
 	    </div>
 
-	    <div id="contacTop">
-	        <div id="contenedorContacTop">
-	            <div class="borders width1000">
-	                <h2 class="lineHeight">Si queres conocernos <br>contactate</h2>
-	            </div>
-	        </div>
-	    </div>
+	  	<div class="section" id="contactenos">
+	  		<div id="contacTop">
+		        <div id="contenedorContacTop">
+		            <div class="borders width1000">
+		                <h2 class="lineHeight">Si queres conocernos <br>contactate</h2>
+		            </div>
+		        </div>
+		    </div>
 
-	    <div id="contacto">
+		    <div id="contacto">
 
-	        <div id="innerContact"></div>
-	    </div>
+		        <div id="innerContact"></div>
+		    </div>
+	  	</div>
 	</div>
 
 	<!-- Fin del cuerpo de la Web -->
@@ -283,9 +289,9 @@
 
         function myFunction() {
             if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
-                document.getElementById("menu").className = "backgroundNav";
+                document.getElementById("").className = "backgroundNav";
             } else {
-                document.getElementById("menu").className = "";
+                document.getElementById("").className = "";
             }
         }
     </script>

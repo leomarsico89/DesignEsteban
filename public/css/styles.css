@@ -72,6 +72,11 @@ p{color:black; }
 	max-height: 100%;
 }
 
+.flex-row.align_center{ 
+    align-items: center;
+    align-content: center;
+
+ }
 
 
 
@@ -202,6 +207,9 @@ header .nav input#hamburguer:checked ~ .nav_header{
 
 
 
+/*****************************
+	resolucionesIntegrales
+******************************/
 
 
 
@@ -213,8 +221,7 @@ header .nav input#hamburguer:checked ~ .nav_header{
 
 
 
-
-h1{font-size:5em;text-align:left;  }
+/*h1{font-size:5em;text-align:left;  }
 h1 span.destacado{font-weight:700;width:100%;  }
 strong.redColor{color:#ff0000;}
 
@@ -248,13 +255,13 @@ ul.listaResoluciones{position:relative; float:left; margin-right:80px;font-size:
 ul.listaResoluciones li{float:left;color:black;margin-top:20px;   }
 ul#first li:first-child,ul#second li:first-child,ul#third li:first-child{margin-top:0;	}
 /*ul#first li {margin-left: 380px;}*/
-
+/*
 #pilares{width:100%;height:305px;background:#fff;position:relative;}
 #pilares #contenedorPilares{  max-width: 1800px;width: 100%;margin:106px auto;position:relative;padding: 2% 0 4% 0; }
 #pilaresContent{width:100%;height:1000px;position:relative;}
 #pilaresContent #pilaresContentInner{max-width:1800px;width:100%;position:relative;margin: 0 auto;  }
 #pilaresContent #pilaresContentInner p.bajada{padding-left:2.5%;}
-.slides-pilares{width:100%;;margin:0 auto;height:850px;/*max-width:1800px;*/}
+.slides-pilares{width:100%;;margin:0 auto;height:850px;}
 #pilaresBottom{max-width:1800px;width:100%;height:100px;background:#fff;position:relative;padding:1%;margin:0 auto; }
 .tituloPilar {width: auto;color: white;line-height: 40px;font-size: 1.5em;font-weight: 800;text-align: left;float: left;
 position: relative;display: block;padding: 0;}
@@ -274,7 +281,7 @@ position: relative;display: block;padding: 0;}
 #contacto #innerContact{max-width: 1800px;width: 100%;margin: 50px auto;position:relative;padding: 2% 0 0% 0;}
 footer{width:100%;position: relative;background-color:black;height:150px;   }
 
-/* esto lo agregué yo, es lo que pusiste en arquitect pero para los asistentes. */
+
 article.asistent{width:20%;position:relative;float:left;padding-bottom:5%;margin-left:2%;margin-right:2%;    }
 article.asistent p{margin-bottom:30px; }
 article.asistent a {color: black;width: 100px;border: 3px solid red;padding: 5px;text-decoration:none;   }
@@ -288,9 +295,7 @@ article.asistent a span{color:#ff0000;margin-right: 5px; font-weight:700;font-si
 -moz-transition: background 0.5s ease-in;
 -ms-transition: background 0.5s ease-in;
 -o-transition: background 0.5s ease-in;
-transition: background 0.5s ease-in;/*-webkit-box-shadow: 0px 0px 91px -25px rgba(66,66,66,0.7);
--moz-box-shadow: 0px 0px 91px -25px rgba(66,66,66,0.7);
-box-shadow: 0px 0px 91px -25px rgba(66,66,66,0.7);*/  }
+transition: background 0.5s ease-in; }
 
 
 
@@ -360,7 +365,5 @@ width: 45%;
 filter: grayscale(0%);
 }
 
-
-
-
+*/
 

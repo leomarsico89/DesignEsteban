@@ -42,6 +42,11 @@ body{
 
 p{color:black; }
 
+
+/*****************
+	GENERALES
+******************/
+
 .none{
 	display: none !important;
 }
@@ -51,9 +56,31 @@ p{color:black; }
 .sinMarginTop{margin-top:0!important;}
 .width1000{width:1000px!important;}
 .white{color:white!important; }
+.flex-row{
+	display: -webkit-box;
+  	display: -moz-box;
+  	display: -ms-flexbox;
+  	display: -webkit-flex;
+  	display: flex;
+  	-webkit-flex-flow: row wrap;
+  	justify-content: space-around;
+}
+
+.flex-row .flex50{
+	flex: 1 1 100%;
+	max-width: 50%;
+	max-height: 100%;
+}
+
+
+
 
 
 .contenido { width: 100%;position: absolute;text-align: center;left: 0;padding-left: 12%;padding-right: 12%;top: 42%;color:white;}
+
+
+
+
 
 
 /***********
@@ -165,6 +192,21 @@ header .nav input#hamburguer:checked ~ .nav_header{
 	padding-left: 1em;
 	padding-right: 1em;
 }
+
+
+/*****************************
+	Arquitectura asombrosa
+******************************/
+
+
+
+
+
+
+
+
+
+
 
 
 

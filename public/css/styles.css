@@ -48,12 +48,15 @@ p{color:black; }
 ******************/
 h1{
 	font-size: 6em;
+	font-weight: 700;
 }
 h2{
 	font-size: 5em;
+	font-weight: 700;
 }
 h3{
 	font-size: 4em;
+	font-weight: 700;
 }
 .none{
 	display: none !important;
@@ -239,12 +242,14 @@ header .nav input#hamburguer:checked ~ .nav_header{
 ******************************/
 
 .listaResoluciones{position:relative;font-size: 1.2em;   }
+p.bajada{font-size:2em;font-weight:500;color:black;line-height:100px; }
 
+/*****************************
+	       pilares
+******************************/
 
-
-
-
-
+#pilares{width:100%;height:305px;background:#fff;position:relative;}
+#pilares #contenedorPilares{  max-width: 1800px;width: 100%;margin:106px auto;position:relative;padding: 1em 0 2% 0; }
 
 
 

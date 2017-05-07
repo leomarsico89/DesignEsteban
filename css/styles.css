@@ -56,13 +56,14 @@ p{color:black; }
 #content1 { width:100%;height:100vh;background:url("../img/background_home.png")no-repeat center center fixed; background-position: 0px 0px;
   -webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;position:relative; }
 .contenido { width: 100%;position: absolute;text-align: center;left: 0;padding-left: 12%;padding-right: 12%;top: 42%;color:white;}
-header#menu{width:100%;height:80px;position:fixed;z-index:9999999999;}
+header#menu{width:100%;height:80px;position:fixed;z-index:9999999999;left:2%; }
 h1{font-size:5em;text-align:left;  }
 h1 span.destacado{font-weight:700;width:100%;  }
 strong.redColor{color:#ff0000;}
 
-nav.menu-ham{max-width:1800px;width:100%;padding-top:0.5%;margin: 0 auto;  }
+nav.menu-ham{max-width:1800px;width:100%;padding-top:0.5%;margin: 0 auto;right:2%;   }
 .brand{width:150px;position: relative;float:left; }
+.brand img{width:150px; }
 .toggle {width: 30px;height: 54px;float: right;cursor: pointer;display: block;padding-top: 15px;}
 .icon {width: 100%;height: 100%;vertical-align: middle;display: table-cell;}
 .top,.mid,.bot {stroke-width:4;stroke: #333;}  

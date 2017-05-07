@@ -47,16 +47,20 @@ p{color:black; }
 	GENERALES
 ******************/
 h1{
-	font-size: 6em;
+	font-size: 4em;
 	font-weight: 700;
 }
 h2{
-	font-size: 5em;
+	font-size: 4em;
 	font-weight: 700;
 }
 h3{
-	font-size: 4em;
+	font-size: 3em;
 	font-weight: 700;
+}
+h4{
+	font-size: 1.5em;
+	font-weight:700;
 }
 .none{
 	display: none !important;
@@ -111,14 +115,30 @@ h3{
 .redColor{
 	color:#ff0000;
 }
+p.bajada{
+	font-size:1.5em;
+	font-weight:500;
+	color:#000;
+}
 
-
+.parrafo{
+	margin-top: 5%;
+}
 
 .contenido { width: 100%;position: absolute;text-align: center;left: 0;padding-left: 12%;padding-right: 12%;top: 42%;color:white;}
 
+.space_left{
+	padding-left: 1em;
+}
 
+.space_right{
+	padding-right: 1em;
+}
+.font_normal{
+	 line-height: normal;
+    font-weight: 400;
 
-
+}
 
 
 /***********
@@ -202,11 +222,16 @@ header .nav input#hamburguer:checked ~ .nav_header{
 	z-index: 101;
 }
 .title_header{
-	max-width: 70%;
+	max-width: 80%;
     margin: auto;
 }
 .title_header h1{
 	color: #fff;
+}
+
+.title_header h1 .destacado{
+	display: block;
+	font-weight: 400;
 }
 
 .toggle {
@@ -238,16 +263,31 @@ header .nav input#hamburguer:checked ~ .nav_header{
 .section {
 	padding-left: 1em;
 	padding-right: 1em;
-	padding-top: 80px;
+	padding-top: 150px;
 }
 
 
 /*****************************
 	Arquitectura asombrosa
 ******************************/
+article .subtitle{
+	font-size: .9em;
+    font-weight: 400;
+}
 
+.section article{
+	margin-bottom: 5%;
+}
 
+.more_info{
+	color: #000;
+	display: block;
+	text-decoration: none;
+}
+.more_info:hover{
+	color: #ff0000;
 
+}
 
 
 /*****************************
@@ -255,7 +295,6 @@ header .nav input#hamburguer:checked ~ .nav_header{
 ******************************/
 
 .listaResoluciones{position:relative;font-size: 1.2em;   }
-p.bajada{font-size:2em;font-weight:500;color:black;line-height:100px; }
 
 /*****************************
 	       pilares

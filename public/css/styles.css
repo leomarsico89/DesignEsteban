@@ -72,6 +72,12 @@ p{color:black; }
 	max-height: 100%;
 }
 
+.flex-row .flex25{
+	flex: 1 1 100%;
+	max-width: 25%;
+	max-height: 100%;
+}
+
 .flex-row.align_center{ 
     align-items: center;
     align-content: center;
@@ -211,7 +217,7 @@ header .nav input#hamburguer:checked ~ .nav_header{
 	resolucionesIntegrales
 ******************************/
 
-
+.listaResoluciones{position:relative;font-size: 1.2em;   }
 
 
 

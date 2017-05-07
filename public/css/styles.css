@@ -125,15 +125,14 @@ p.bajada{
 	margin-top: 5%;
 }
 
-<<<<<<< Updated upstream
+
 .contenido { width: 100%;position: absolute;text-align: center;left: 0;padding-left: 12%;padding-right: 12%;top: 42%;color:white;}
 
 .space_left{
 	padding-left: 1em;
 }
-=======
-.contenido { width: 100%;position: absolute;text-align: center;left: 0;padding:0 4em;top: 42%;color:white;}
->>>>>>> Stashed changes
+
+
 
 .space_right{
 	padding-right: 1em;
@@ -141,15 +140,12 @@ p.bajada{
 .font_normal{
 	 line-height: normal;
     font-weight: 400;
-
-<<<<<<< Updated upstream
-=======
+}
 
 .borders{
 	border-left: 20px solid red;
     padding: 2em;
     border-top: 20px solid red;
->>>>>>> Stashed changes
 }
 
 
@@ -306,9 +302,7 @@ article .subtitle{
 	resolucionesIntegrales
 ******************************/
 
-<<<<<<< Updated upstream
-.listaResoluciones{position:relative;font-size: 1.2em;   }
-=======
+
 .listaResoluciones{
 	position:relative;
 	font-size: 1.2em;   
@@ -318,7 +312,7 @@ p.bajada{
 	font-size:2em;
 	font-weight:500;
 	color:black; }
->>>>>>> Stashed changes
+
 
 /*****************************
 	       pilares

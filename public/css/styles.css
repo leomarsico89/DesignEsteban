@@ -142,22 +142,14 @@ p.bajada{
     font-weight: 400;
 }
 
-<<<<<<< Updated upstream
-.borders{
-	border-left: 20px solid red;
-    padding: 2em;
-    border-top: 20px solid red;
-}
 .position_relative{
 	position: relative;
 }
 
 .angulo_top{
-	border-top-color: #ff0000;
-	border-left-color: #ff0000;
-	border-top: 20px;
-	border-left: 20px;
-	border-style: solid;
+	border-top: 20px #ff0000 solid;
+	border-left: 20px #ff0000 solid;
+	
 	position: absolute;
 	left: 5%;
 	top: 0;
@@ -165,22 +157,16 @@ p.bajada{
 	height:10em;
 }
 .angulo_bottom{
-	border-bottom-color: #ff0000;
-	border-right-color: #ff0000;
-	border-bottom: 20px;
-	border-right: 20px;
-	border-style: solid;
+
+	border-bottom: 20px #ff0000 solid;
+	border-right:20px #ff0000 solid;
 	position: absolute;
 	right: 5%;
 	bottom: 0;
 	width: 30%;
 	height:10em;
 }
-=======
 
-
-
->>>>>>> Stashed changes
 
 /***********
 	HEADER
@@ -201,11 +187,18 @@ header .nav_menu{
 }
 .header .nav_header{
 	padding:1em;
-	width:97%;
+	width:100%;
 	position:fixed;
 	z-index:90;
 	transition: 0.5s ease;
+	
    }
+.nav_header.scroll{
+	-webkit-box-shadow: 0px 3px 10px -1px rgba(122,113,122,0.56);
+	-moz-box-shadow: 0px 3px 10px -1px rgba(122,113,122,0.56);
+	box-shadow: 0px 3px 10px -1px rgba(122,113,122,0.56);
+	background-color: #fff;
+}  
 .nav_header .brand{
 	width:11%;
 }

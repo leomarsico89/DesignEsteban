@@ -141,7 +141,19 @@ header .nav input#hamburguer:checked ~ .nav_header{
 
 
 
+.toggle {width: 30px;height: 54px;float: right;cursor: pointer;display: block;padding-top: 15px;}
+.icon {width: 100%;height: 100%;vertical-align: middle;display: table-cell;}
+.top,.mid,.bot {stroke-width:4;stroke: #333;}  
 
+
+
+.prallax-scroll {font-size: 12px;font-family:'Open Sans', sans-serif; ;color: #fff;font-weight: 700;text-transform: uppercase;text-align: center;width: 70px;height: 80px;
+ position: absolute;bottom: 70px;left: 50%;margin-left: -35px;letter-spacing: 3px;cursor:pointer; }
+.prallax-scroll-svg {width: 100%;height: 100%;    margin-top: 10px;}
+.prallax-scroll-svg .ps-1, .prallax-scroll-svg .ps-2 {stroke-width: 1px;stroke: #ff0000;fill: #ff0000;}
+.prallax-scroll-svg .ps-2 {stroke-width: 2px;-moz-transform: scaleY(.55);-ms-transform: scaleY(.55);
+ -webkit-transform: scaleY(.55);-o-transform: scaleY(.55);transform: scaleY(.55);transition: all .3s ease-out;}
+.prallax-scroll-svg:hover .ps-2 {transform: scaleY(1)}
 
 
 
@@ -169,19 +181,7 @@ h1{font-size:5em;text-align:left;  }
 h1 span.destacado{font-weight:700;width:100%;  }
 strong.redColor{color:#ff0000;}
 
-.toggle {width: 30px;height: 54px;float: right;cursor: pointer;display: block;padding-top: 15px;}
-.icon {width: 100%;height: 100%;vertical-align: middle;display: table-cell;}
-.top,.mid,.bot {stroke-width:4;stroke: #333;}  
 
-
-
-.prallax-scroll {font-size: 12px;font-family:'Open Sans', sans-serif; ;color: #fff;font-weight: 700;text-transform: uppercase;text-align: center;width: 70px;height: 80px;
- position: absolute;bottom: 70px;left: 50%;margin-left: -35px;letter-spacing: 3px;cursor:pointer; }
-.prallax-scroll-svg {width: 100%;height: 100%;    margin-top: 10px;}
-.prallax-scroll-svg .ps-1, .prallax-scroll-svg .ps-2 {stroke-width: 1px;stroke: #ff0000;fill: #ff0000;}
-.prallax-scroll-svg .ps-2 {stroke-width: 2px;-moz-transform: scaleY(.55);-ms-transform: scaleY(.55);
- -webkit-transform: scaleY(.55);-o-transform: scaleY(.55);transform: scaleY(.55);transition: all .3s ease-out;}
-.prallax-scroll-svg:hover .ps-2 {transform: scaleY(1)}
 
 
 

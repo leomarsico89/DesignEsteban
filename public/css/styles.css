@@ -46,7 +46,15 @@ p{color:black; }
 /*****************
 	GENERALES
 ******************/
-
+h1{
+	font-size: 6em;
+}
+h2{
+	font-size: 5em;
+}
+h3{
+	font-size: 4em;
+}
 .none{
 	display: none !important;
 }
@@ -66,6 +74,12 @@ p{color:black; }
   	justify-content: space-around;
 }
 
+.flex-between{
+	justify-content: space-between
+}
+
+
+
 .flex-row .flex50{
 	flex: 1 1 100%;
 	max-width: 50%;
@@ -83,7 +97,9 @@ p{color:black; }
     align-content: center;
 
  }
-
+.redColor{
+	color:#ff0000;
+}
 
 
 
@@ -104,8 +120,7 @@ header.header{
 header .nav_menu{
 	background-color: #fff;
 	height: 100vh;
-	left: 0;
-	padding-top: 80px;
+	left: 0;	
 	position:fixed;
 	top: -100vh;
 	transition: 2s ease;
@@ -114,14 +129,12 @@ header .nav_menu{
 }
 .header .nav_header{
 	padding:1em;
-	width:100%;
+	width:97%;
 	position:fixed;
 	z-index:90;
 	transition: 0.5s ease;
    }
 .nav_header .brand{
-	display:  inline-block;
-	text-align: left;
 	width:11%;
 }
 .nav_header .brand img{
@@ -170,6 +183,7 @@ header .nav_menu{
 
 header .nav input#hamburguer:checked ~ .nav_menu{
 	top: 0;
+	padding-top: 80px;
 }
 
 header .nav input#hamburguer:checked ~ .nav_header{
@@ -179,7 +193,13 @@ header .nav input#hamburguer:checked ~ .nav_header{
 
 
 
-.toggle {width: 30px;height: 54px;float: right;cursor: pointer;display: block;padding-top: 15px;}
+.toggle {
+	width: 30px;
+	height: 54px;
+	cursor: pointer;
+	display: block;
+	padding-top: 15px;
+}
 .icon {width: 100%;height: 100%;vertical-align: middle;display: table-cell;}
 .top,.mid,.bot {stroke-width:4;stroke: #333;}  
 
@@ -202,6 +222,7 @@ header .nav input#hamburguer:checked ~ .nav_header{
 .section {
 	padding-left: 1em;
 	padding-right: 1em;
+	padding-top: 80px;
 }
 
 

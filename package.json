@@ -1,0 +1,16 @@
+{
+  "name": "spred",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Spred sistema de credito hipotecario Santander Rio",
+  "scripts": {
+    "start": "grunt"
+  },
+  "author": "Walter Camaly <walter.camaly@w3americas.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-connect": "^0.8.0",
+    "grunt-contrib-watch": "^0.6.1"
+  }
+}

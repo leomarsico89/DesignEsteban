@@ -145,6 +145,15 @@ header .nav input#hamburguer:checked ~ .nav_header{
 
 
 
+/****************
+	Contenido
+
+*****************/
+.section {
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
 
 
 
